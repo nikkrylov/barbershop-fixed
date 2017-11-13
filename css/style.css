@@ -1,3 +1,6 @@
+/*  ------------------   index.html
+----------------------   general styles  ---------------------  */
+
 * {
     margin: 0;
     padding: 0;
@@ -27,6 +30,7 @@
 
 .clearfix {
     clear: both;
+    margin-bottom: 60px;
 }
 
 .logo-top {
@@ -65,7 +69,8 @@
 }
 
 .news-gallery:after,
-.contacts-form:after {
+.contacts-form:after,
+.about-us:after {
     content:'';
     display: table;
     clear: both;
@@ -84,4 +89,94 @@
 .developed-by {
     float: right;
     width: 140px;
+}
+
+/*  ------------   shop.html  -------------  */
+
+.menu-logo {
+    float: left;
+    padding: 25px 0;
+    padding-right: 40px;
+    margin-left: 30px;
+}
+
+.breadcrumbs li {
+    display: inline-block;
+}
+
+.breadcrumbs {
+    margin-bottom: 55px;
+}
+
+aside {
+    float: left;
+    width: 220px;
+}
+
+.product-cards {
+    float: right;
+    width: 700px;
+}
+
+
+.product-cards-item {
+    float: left;
+    width: 220px;
+    height: 290px;
+    margin-right: 20px;
+}
+
+.product-cards-item:nth-child(3),
+.product-cards-item:nth-child(6){
+    margin-right: 0;
+}
+
+.product-cards-paginator {
+    margin-left: 260px;
+    margin-bottom: 50px;
+}
+
+/*  -------------------   price.html   ------------------   */
+
+.price-slogan {
+    display: block;
+    width: 940px;
+    text-align: center;
+    padding-bottom: 60px;
+}
+
+.ingredients {
+    float: left;
+    width: 240px;
+}
+
+.price-table {
+    float: right;
+    width: 460px;
+}
+
+.about-us {
+    margin-bottom: 60px;
+}
+
+.about-us-left {
+    float: left;
+    width: 380px;
+}
+
+.about-us-right {
+    float: right;
+    width: 380px;
+}
+
+/*  --------------------   item.html  -------------------  */
+
+.gallery {
+    float: left;
+    width: 460px;
+}
+
+.product-description {
+    float: right;
+    width: 390px;
 }
