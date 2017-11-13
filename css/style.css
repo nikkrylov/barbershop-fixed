@@ -35,3 +35,53 @@
     margin: 0 auto;
     margin-bottom: 25px;
 }
+
+.advantages-item {
+    width: 300px;
+    float: left;
+    margin-right: 20px;
+    text-align: center;
+}
+
+.advantages {
+    margin-bottom: 64px;
+}
+
+.content {
+    padding-top: 56px;
+    padding-bottom: 51px;
+    padding-left: 80px;
+    padding-right: 86px;
+}
+
+.news, .contacts {
+    float: left;
+    width: 380px;
+}
+
+.gallery, .form {
+    float: right;
+    width: 300px;
+}
+
+.news-gallery:after,
+.contacts-form:after {
+    content:'';
+    display: table;
+    clear: both;
+}
+
+.footer-contacts {
+    float: left;
+    width: 320px;
+}
+
+.footer-soc-buttons {
+    float: left;
+    width: 140px;
+}
+
+.developed-by {
+    float: right;
+    width: 140px;
+}
